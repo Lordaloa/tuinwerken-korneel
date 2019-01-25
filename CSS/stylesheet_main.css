@@ -1,0 +1,116 @@
+@font-face {
+    font-family: architex;
+    src: url(../FONTS/Architex.ttf);
+}
+
+body {
+    display: block;
+    font-size: 2vw;
+    margin: 5% 0% 5% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    box-shadow: 0px 0px 10px #222222;
+    border-style: solid;
+    border-width: medium;
+    border-color: #524A3A;
+    background-image: url(../IMAGES/Garden_Korneel.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #5A5F3700;
+}
+
+#info {
+    background-color: #FFFAE1DD;
+}
+
+body * {
+    font-family: "arial", sans-serif;
+    text-decoration: none;
+    color: #524A3A;
+}
+
+header {
+    padding: 3%;
+    font-weight: bold;
+}
+
+header h1 {}
+
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo * {
+    display: inline-block;
+    width: 40%;
+    font-family: architex;
+    font-size: 9vw;
+}
+
+body header nav ul {
+    display: inline-flex;
+    width: 100%;
+}
+
+body header nav ul li {
+    border-style: solid;
+    border-width: medium;
+    border-color: #524A3A;
+    box-shadow: 0px 0px 10px #222222;
+    border-radius: 25%;
+    background-color: #295C00DD;
+    display: inline-flex;
+    width: 26.3333333%;
+    text-align: center;
+    padding: 0% 1.5% 0% 1.5%;
+    margin: 1.5%;
+}
+
+body header nav ul li a {
+    color: #FFFAE1;
+    background-color: #00000000;
+    width: 100%;
+    font-size: 3vw;
+    text-align: center;
+    padding: 0%;
+    margin: 15% 0% 15% 0%;
+}
+
+body main {
+    box-shadow: 0px 0px 10px #222222;
+    border-style: solid;
+    border-width: medium;
+    border-color: #524A3A;
+    margin: 3%;
+    padding: 3%;
+}
+
+body footer {
+    box-shadow: 0px 0px 10px #222222;
+    border-style: solid;
+    border-width: medium 0 0 0;
+    border-color: #524A3A;
+    padding: 3%;
+    background-color: #295C00DD;
+}
+
+body footer * {
+    color: #FFFAE1;
+}
+
+body footer img {
+    border-style: solid;
+    border-width: medium;
+    border-color: #524A3A;
+    box-shadow: 0px 0px 10px #222222;
+    border-radius: 25%;
+    max-height: 5%;
+    max-width: 5%;
+}
